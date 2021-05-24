@@ -1,8 +1,7 @@
 Ideas - Game Theme: Small Worl
 
 - bacteria world
-- Name: ????????
-
+- Name: QuickBact
 *******************CORE******************************
 - some different types of bacteria of different shapes and colors
 - 2d game
