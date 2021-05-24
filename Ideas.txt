@@ -16,6 +16,7 @@ Ideas - Game Theme: Small Worl
 - enemies that get in the bacteria's way of getting the food
 - environment related to an animal
 - add platforms
+- smooth camera following
 *****************************************************
 
 *****************MECHANICS***************************
