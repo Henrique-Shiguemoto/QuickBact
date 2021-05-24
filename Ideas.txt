@@ -1,0 +1,25 @@
+Ideas - Game Theme: Small Worl
+
+- bacteria world
+- Name: ????????
+
+*******************CORE******************************
+- some different types of bacteria of different shapes and colors
+- 2d game
+- agar.io like game
+- collectables (bacteria  food)
+- bacteria have to eat the food (get collectables) in a set timer
+*****************************************************
+
+********************THINGS TO ADD********************
+- different collectables (for bacteria speed or to atract the food)
+- enemies that get in the bacteria's way of getting the food
+- environment related to an animal
+- add platforms
+*****************************************************
+
+*****************MECHANICS***************************
+- Control bacteria with W,A,S,D (basic controls)
+- no shooting
+- dash (with cooldown)
+*****************************************************
