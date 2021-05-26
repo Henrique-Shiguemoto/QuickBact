@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectable
   - Enemy
+  - Hole
   layers:
   - Default
   - TransparentFX

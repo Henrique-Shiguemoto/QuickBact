@@ -60,9 +60,10 @@
     <Compile Include="Assets\Scenes\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionCollectable.cs" />
     <Compile Include="Assets\Scenes\Scripts\Bacteria2DController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\CheckCollisionHole.cs" />
     <Compile Include="Assets\Scenes\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\CheckCollisionWithOtherEnemy.cs" />
+    <Compile Include="Assets\Scenes\Scripts\RotateWall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

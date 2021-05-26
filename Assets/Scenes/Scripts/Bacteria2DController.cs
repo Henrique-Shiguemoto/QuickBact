@@ -5,14 +5,13 @@ using UnityEngine;
 public class Bacteria2DController : MonoBehaviour
 {
     private new Rigidbody2D rigidbody2D;
-    private Vector3 moveDir;
-    [SerializeField] private float bactSpeed = 10f;
+    private Vector2 moveDir;
+    public float bactSpeed = 10f;
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     private void Update()
     {
         float moveX = 0f;
@@ -34,9 +33,7 @@ public class Bacteria2DController : MonoBehaviour
         {
             moveX = 1f;
         }
-
-        moveDir = new Vector3(moveX, moveY).normalized;
-
+        moveDir = new Vector2(moveX, moveY).normalized;
     }
 
     private void FixedUpdate()
