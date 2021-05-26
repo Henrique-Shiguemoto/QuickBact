@@ -1,21 +1,26 @@
-Ideas - Game Theme: Small Worl
+Ideas - Game Theme: Small World
 
 - bacteria world
 - Name: QuickBact
+
 *******************CORE******************************
 - some different types of bacteria of different shapes and colors
 - 2d game
 - agar.io like game
 - collectables (bacteria  food)
 - bacteria have to eat the food (get collectables) in a set timer
+- enemies that get in the bacteria's way of getting the food
 *****************************************************
 
 ********************THINGS TO ADD********************
 - different collectables (for bacteria speed or to atract the food)
-- enemies that get in the bacteria's way of getting the food
+- different types of enemies
 - environment related to an animal
-- add platforms
+- add many kinds of platforms
 - smooth camera following
+- add skins for the objects
+- add post processing
+- dash mechanic with cooldown
 *****************************************************
 
 *****************MECHANICS***************************

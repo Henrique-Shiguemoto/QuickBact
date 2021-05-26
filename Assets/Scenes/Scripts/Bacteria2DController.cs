@@ -6,7 +6,7 @@ public class Bacteria2DController : MonoBehaviour
 {
     private new Rigidbody2D rigidbody2D;
     private Vector3 moveDir;
-    private const float MOVE_SPEED = 10f;
+    [SerializeField] private float bactSpeed = 10f;
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -41,6 +41,6 @@ public class Bacteria2DController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody2D.velocity = moveDir*MOVE_SPEED;
+        rigidbody2D.velocity = moveDir*bactSpeed;
     }
 }
