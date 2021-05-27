@@ -63,6 +63,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5315004681628260514, guid: 8f9f3d9350d34954c80b8eb88bb529a8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8176135
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315004681628260514, guid: 8f9f3d9350d34954c80b8eb88bb529a8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315004681628260514, guid: 8f9f3d9350d34954c80b8eb88bb529a8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.056114297
+      objectReference: {fileID: 0}
     - target: {fileID: 5315004681628260515, guid: 8f9f3d9350d34954c80b8eb88bb529a8, type: 3}
       propertyPath: m_Name
       value: RotatingWall

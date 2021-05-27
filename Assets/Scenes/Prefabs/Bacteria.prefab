@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 3661378819955793748}
   - component: {fileID: 3661378819955793747}
   - component: {fileID: 922970677}
-  - component: {fileID: 6445176520592576306}
   m_Layer: 0
   m_Name: Bacteria
   m_TagString: Player
@@ -79,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.23082057, g: 0.78975475, b: 0.8584906, a: 1}
+  m_Color: {r: 0.26542437, g: 0.21333212, b: 0.8867924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,7 +97,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 3661378819955793754}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 343b6d843507d7346961e338956e7e6c, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -139,7 +138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bactSpeed: 10
-  isBouncing: 0
 --- !u!114 &3661378819955793748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,21 +167,6 @@ MonoBehaviour:
   textObject: {fileID: 0}
   reloadSceneDelay: 1.5
 --- !u!114 &922970677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3661378819955793754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b1616a9eb69aa04f8edd3d51f2d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  reloadSceneDelay: 1.5
-  gameOverText: {fileID: 0}
---- !u!114 &6445176520592576306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

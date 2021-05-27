@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scenes\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scenes\Scripts\RotateWall.cs" />
+    <Compile Include="Assets\Scenes\Scripts\HexagonSize.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
