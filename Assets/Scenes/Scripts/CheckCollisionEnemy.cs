@@ -23,11 +23,9 @@ public class CheckCollisionEnemy : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 textObject.text = "GAME OVER";
-
                 gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
             }
         }
-        
     }
 
     private float CalculateDistance(GameObject fisrtObj, GameObject secondObj)

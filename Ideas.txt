@@ -21,6 +21,9 @@ Ideas - Game Theme: Small World
 - add skins for the objects
 - add post processing
 - dash mechanic with cooldown
+- minimap
+- better UI
+- pathfinding for follower enemy
 *****************************************************
 
 *****************MECHANICS***************************

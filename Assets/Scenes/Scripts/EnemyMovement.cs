@@ -2,16 +2,28 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    private Transform targetTransform;
     [SerializeField] private float enemySpeed;
+    [SerializeField] private float distanceThreshold;
+    [SerializeField] private GameObject targetFollow;
 
     private void Start()
     {
-        targetTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, targetTransform.position, enemySpeed*Time.deltaTime);
+        if (CalculateDistance(gameObject, targetFollow) <= distanceThreshold)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, targetFollow.transform.position, enemySpeed*Time.deltaTime);
+        }
+    }
+
+    float CalculateDistance(GameObject obj1, GameObject obj2)
+    {
+        Vector2 v1 = obj1.transform.position;
+        Vector2 v2 = obj2.transform.position;
+        float result = Vector2.Distance(v1, v2);
+        return result;
     }
 }

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3661378819955793748}
   - component: {fileID: 3661378819955793747}
   - component: {fileID: 922970677}
+  - component: {fileID: 2796925282301634700}
   m_Layer: 0
   m_Name: Bacteria
   m_TagString: Player
@@ -181,3 +182,17 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   reloadSceneDelay: 1.5
   gameOverText: {fileID: 0}
+--- !u!114 &2796925282301634700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661378819955793754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9d1730973941d4aa518dba8c54c9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverText: {fileID: 0}
+  reloadSceneDelay: 1.5

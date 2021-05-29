@@ -56,15 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooter.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionEnemy.cs" />
     <Compile Include="Assets\Scenes\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionCollectable.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ShooterMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\Bacteria2DController.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionHole.cs" />
+    <Compile Include="Assets\Scenes\Scripts\HexagonSize.cs" />
     <Compile Include="Assets\Scenes\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooterBullet.cs" />
     <Compile Include="Assets\Scenes\Scripts\RotateWall.cs" />
-    <Compile Include="Assets\Scenes\Scripts\HexagonSize.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
