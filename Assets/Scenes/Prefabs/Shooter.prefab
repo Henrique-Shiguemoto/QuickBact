@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8737974160439879749}
   - component: {fileID: 6205348108265917252}
   - component: {fileID: -720479742584325999}
-  - component: {fileID: -919691973083197982}
+  - component: {fileID: -2800868316329266659}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Shooter
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 305568170712275744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.2036147, y: 5.077573, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 2097348911
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -673626547663820483, guid: 59fdc846d840c3543b4cba2c50ba8416, type: 3}
-  m_Color: {r: 0.4274984, g: 0.38069597, b: 0.5566038, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 590b73e132435194da7d40dc8a3816f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTransform: {fileID: 0}
-  distanceThreshold: 25
-  shooterSpeed: 4.5
+  distanceThreshold: 7.5
+  shooterSpeed: 2.5
   bullet: {fileID: 150110147491002437, guid: 4548ecc33cec55846a7167377589055c, type: 3}
   timeBetweenShots: 0.8
 --- !u!58 &6205348108265917252
@@ -116,9 +116,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.45}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.39966512
 --- !u!50 &-720479742584325999
 Rigidbody2D:
   serializedVersion: 4
@@ -140,7 +140,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &-919691973083197982
+--- !u!95 &-2800868316329266659
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ Animator:
   m_GameObject: {fileID: 305568170712275744}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b3cfb99c11c40504b9ed354c5fa5dd6e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0d3842a994495234589cb6d54c1215e2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
