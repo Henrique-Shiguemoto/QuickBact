@@ -15,11 +15,11 @@ C:/Users/azric/OneDrive/Área de Trabalho/Unity Games/QuickBact
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61461
+61652
 Successfully changed project path to: C:/Users/azric/OneDrive/Área de Trabalho/Unity Games/QuickBact
 C:/Users/azric/OneDrive/Área de Trabalho/Unity Games/QuickBact
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,227 +35,739 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003089 seconds.
+Registered in 0.002322 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.272 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001499 seconds.
+Registered in 0.001385 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.136 seconds
+- Completed reload, in  1.028 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.5 MB.
 System memory in use after: 86.4 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 2.294700 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.893300 ms  DeleteObjects: 0.126400 ms)
+Total: 2.228100 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.826900 ms  DeleteObjects: 0.129800 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/Animations
+  artifactKey: Guid(b03ec2036fbbcd544ac8f086d0be5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations using Guid(b03ec2036fbbcd544ac8f086d0be5686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66550468e399cedb93d68b83deb30082') in 0.011348 seconds
+  Import took 0.017333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.428504 seconds.
+  path: Assets/Scenes/Animations/Bacteria
+  artifactKey: Guid(63d5fef96ee270a408c550b382446aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria using Guid(63d5fef96ee270a408c550b382446aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb93d927aae6435bc6a5440cec43152') in 0.005752 seconds
+  Import took 0.012935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.226395 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter
+  artifactKey: Guid(63d5fef96ee270a408c550b382446aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter using Guid(63d5fef96ee270a408c550b382446aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facf71f030f809c20d7a5222eb465955') in 0.012233 seconds
+  Import took 0.018015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.114237 seconds.
+  path: Assets/Scenes/Animations/Collectables
+  artifactKey: Guid(0bf2cfd8e0d677848a86dd4967491bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables using Guid(0bf2cfd8e0d677848a86dd4967491bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a46c671f9e582ba7af644813207e73') in 0.013009 seconds
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.569878 seconds.
+  path: Assets/From AssetStore/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png
+  artifactKey: Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/From AssetStore/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png using Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e715088902bb34379db5d782b8ccb') in 0.234673 seconds
+  Import took 0.239960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.251799 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle.anim
+  artifactKey: Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle.anim using Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b281ee74fd55f7e3e10983cce3721e') in 0.026218 seconds
+  Import took 0.032264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.575592 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller
+  artifactKey: Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller using Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588018f522b6e1fc18b308bcc37b98a8') in 0.006966 seconds
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.547081 seconds.
   path: Assets/Scenes/Prefabs/Bacteria.prefab
   artifactKey: Guid(06b182e1a3541b6408c42b348fcb4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Bacteria.prefab using Guid(06b182e1a3541b6408c42b348fcb4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf0f26ca398d613ad7f9856204fabc') in 0.335537 seconds
-  Import took 0.357264 seconds .
+Start importing Assets/Scenes/Prefabs/Bacteria.prefab using Guid(06b182e1a3541b6408c42b348fcb4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bacteria) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Bacteria) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '19422df397c78d1e33c3f19b07bf8219') in 0.048632 seconds
+  Import took 0.056180 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.263332 seconds.
-  path: Assets/Scenes/Tiles
-  artifactKey: Guid(a0a42db3d5f96a242b4e975e291f0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tiles using Guid(a0a42db3d5f96a242b4e975e291f0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da558ada74866015e097c788f6f1a2ee') in 0.008868 seconds
-  Import took 0.014033 seconds .
+  Time since last request: 42.657354 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bact.anim
+  artifactKey: Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bact.anim using Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7d2ef41b5d8fcfeb01215bedc3af3e') in 0.011340 seconds
+  Import took 0.018224 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.977763 seconds.
-  path: Assets/Brown.asset
-  artifactKey: Guid(bb3a9de64d8ca2146b63a124d1ee0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brown.asset using Guid(bb3a9de64d8ca2146b63a124d1ee0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fefeccebfca57597d2475d83ebc00a8') in 0.035094 seconds
-  Import took 0.043505 seconds .
+  Time since last request: 28.796979 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim
+  artifactKey: Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim using Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9132ef63e92ccd6704dbdf77186ae78f') in 0.033348 seconds
+  Import took 0.039321 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.584959 seconds.
-  path: Assets/Gray.asset
-  artifactKey: Guid(6d76a4152f797be42a5f7273b849fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gray.asset using Guid(6d76a4152f797be42a5f7273b849fa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd1f2a7160d66169fd26fd80b3fefe2') in 0.034212 seconds
-  Import took 0.040828 seconds .
+  Time since last request: 4.573090 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim
+  artifactKey: Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim using Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91329b4d5056f925e064e60f484e9e') in 0.064755 seconds
+  Import took 0.078773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.951902 seconds.
-  path: Assets/Terrain (16x16)_0.asset
-  artifactKey: Guid(0253a88801bdd554c9131d2703261d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_0.asset using Guid(0253a88801bdd554c9131d2703261d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3659d75b918ab679cd151348450db0a1') in 0.018764 seconds
-  Import took 0.028168 seconds .
+  Time since last request: 9.024079 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shoorte.anim
+  artifactKey: Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shoorte.anim using Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44fd26b822cf2c1869826e961ef9ea9') in 0.011394 seconds
+  Import took 0.020809 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003896 seconds.
-  path: Assets/Terrain (16x16)_0.asset
-  artifactKey: Guid(0253a88801bdd554c9131d2703261d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_0.asset using Guid(0253a88801bdd554c9131d2703261d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3659d75b918ab679cd151348450db0a1') in 0.009659 seconds
-  Import took 0.018410 seconds .
+  Time since last request: 5.669029 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shooter.anim
+  artifactKey: Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shooter.anim using Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ca093fa8f5f5585d07a2ae1e00ddfd') in 0.011111 seconds
+  Import took 0.018953 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.482936 seconds.
-  path: Assets/Terrain (16x16)_3.asset
-  artifactKey: Guid(df2a651d555ac1a458480a24cc649246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_3.asset using Guid(df2a651d555ac1a458480a24cc649246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0982ce9cf1ad925e34e26999014322e0') in 0.016420 seconds
-  Import took 0.023294 seconds .
+  Time since last request: 7.161835 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller
+  artifactKey: Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller using Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967def92729f640bb594e6e581341877') in 0.012457 seconds
+  Import took 0.019315 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002723 seconds.
-  path: Assets/Terrain (16x16)_3.asset
-  artifactKey: Guid(df2a651d555ac1a458480a24cc649246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_3.asset using Guid(df2a651d555ac1a458480a24cc649246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0982ce9cf1ad925e34e26999014322e0') in 0.012182 seconds
-  Import took 0.019042 seconds .
+  Time since last request: 0.001094 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller
+  artifactKey: Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller using Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967def92729f640bb594e6e581341877') in 0.005148 seconds
+  Import took 0.012608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.163441 seconds.
-  path: Assets/PixelAdventure1TilePalette.prefab
-  artifactKey: Guid(1bcbaedb53ac69f48a76410be47146cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PixelAdventure1TilePalette.prefab using Guid(1bcbaedb53ac69f48a76410be47146cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95974c9ac7ea3dd0719c710bca0d462') in 0.015258 seconds
-  Import took 0.020815 seconds .
+  Time since last request: 24.799612 seconds.
+  path: Assets/Scenes/Animations/Collectables/IdlefRUIT.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/IdlefRUIT.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9926c39dfb08829fe1cb58ae545cf38') in 0.009541 seconds
+  Import took 0.020355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.438160 seconds.
-  path: Assets/Terrain (16x16) 1.asset
-  artifactKey: Guid(318fe632202bc0f489b2d520f6d13dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16) 1.asset using Guid(318fe632202bc0f489b2d520f6d13dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdf2c6189f48639355e60896560744') in 0.022204 seconds
-  Import took 0.033560 seconds .
+  Time since last request: 16.259306 seconds.
+  path: Assets/Scenes/Animations/Collectables/IdleStrawberry.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/IdleStrawberry.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e91cf5f223ee3c5281a9c2f61ead97') in 0.011106 seconds
+  Import took 0.018722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/Terrain (16x16) 1.asset
-  artifactKey: Guid(318fe632202bc0f489b2d520f6d13dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16) 1.asset using Guid(318fe632202bc0f489b2d520f6d13dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdf2c6189f48639355e60896560744') in 0.010858 seconds
-  Import took 0.018573 seconds .
+  Time since last request: 10.091594 seconds.
+  path: Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a020d773ac522251a00935be46a3e86b') in 0.011279 seconds
+  Import took 0.019472 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.192321 seconds.
-  path: Assets/Terrain (16x16)_132.asset
-  artifactKey: Guid(8b809a287a3fef447b607f60d57288a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_132.asset using Guid(8b809a287a3fef447b607f60d57288a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597cdc8099fdc2baf1d3242d2bf22a1b') in 0.015750 seconds
-  Import took 0.021892 seconds .
+  Time since last request: 120.659703 seconds.
+  path: Assets/Scenes/Animations/Collectables/Food.controller
+  artifactKey: Guid(97ba24d761b5ebc4894fa7c184a03839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Food.controller using Guid(97ba24d761b5ebc4894fa7c184a03839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7a233cabd58110a178c8bf59f98145') in 0.007007 seconds
+  Import took 0.014552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004716 seconds.
-  path: Assets/Terrain (16x16)_132.asset
-  artifactKey: Guid(8b809a287a3fef447b607f60d57288a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain (16x16)_132.asset using Guid(8b809a287a3fef447b607f60d57288a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597cdc8099fdc2baf1d3242d2bf22a1b') in 0.009646 seconds
-  Import took 0.018485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.372841 seconds.
-  path: Assets/Yellow.asset
-  artifactKey: Guid(db8974f20b1bd8e49874731497155c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yellow.asset using Guid(db8974f20b1bd8e49874731497155c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da87fca24ebc8ceb526f851505817128') in 0.013750 seconds
-  Import took 0.021863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005949 seconds.
-  path: Assets/Yellow.asset
-  artifactKey: Guid(db8974f20b1bd8e49874731497155c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yellow.asset using Guid(db8974f20b1bd8e49874731497155c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da87fca24ebc8ceb526f851505817128') in 0.008331 seconds
-  Import took 0.015161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.462355 seconds.
-  path: Assets/Scenes/Tiles/Background
-  artifactKey: Guid(3d0f1738dae1f2049bc26e3dab204e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tiles/Background using Guid(3d0f1738dae1f2049bc26e3dab204e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50c5f9ee3028ee052ea0e6d98dd2d10') in 0.007268 seconds
-  Import took 0.015343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.173838 seconds.
-  path: Assets/Scenes/Tiles/Terrain
-  artifactKey: Guid(0289cd281c28fcb4087d47d0177c798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tiles/Terrain using Guid(0289cd281c28fcb4087d47d0177c798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f6990958cd28a618c716fd9ee6ae8') in 0.009758 seconds
-  Import took 0.017210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002234 seconds.
-  path: Assets/Scenes/Tiles/Terrain
-  artifactKey: Guid(0289cd281c28fcb4087d47d0177c798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tiles/Terrain using Guid(0289cd281c28fcb4087d47d0177c798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f6990958cd28a618c716fd9ee6ae8') in 0.003128 seconds
-  Import took 0.008599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.989481 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d20472d059a5ba84a5ca74d1aae6391') in 0.013489 seconds
-  Import took 0.019703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.679090 seconds.
-  path: Assets/Scenes/Prefabs/Planet.prefab
-  artifactKey: Guid(69dc0d41f5b88ed42954993f635f1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Planet.prefab using Guid(69dc0d41f5b88ed42954993f635f1e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adf0e33b757fcaa3df955d866fd08b1') in 0.043423 seconds
-  Import took 0.050662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.335851 seconds.
-  path: Assets/Scenes/Prefabs/Hole.prefab
-  artifactKey: Guid(26c3733a705d5c341b7c87e0e5a33c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Hole.prefab using Guid(26c3733a705d5c341b7c87e0e5a33c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ec236c354b958021f925b17d2cc4b') in 0.020039 seconds
-  Import took 0.027122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.617725 seconds.
+  Time since last request: 70.738962 seconds.
   path: Assets/Scenes/Prefabs/Food.prefab
   artifactKey: Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Food.prefab using Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c2bb8768ce9001b0619b6b01ae9715') in 0.021158 seconds
-  Import took 0.028601 seconds .
+Start importing Assets/Scenes/Prefabs/Food.prefab using Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Food) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Food) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'fcc2921c1ad76dce0b1d55645bc9b2b2') in 0.020460 seconds
+  Import took 0.027848 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.305000 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.933300 ms  DeleteObjects: 0.110800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.365200 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.100900 ms MarkObjects: 1.856100 ms  DeleteObjects: 0.119500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 2.270800 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.875600 ms  DeleteObjects: 0.123200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 2.403100 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.053400 ms  DeleteObjects: 0.103400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.596800 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.102200 ms MarkObjects: 2.131600 ms  DeleteObjects: 0.139800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003122 seconds.
+  Time since last request: 296.484343 seconds.
   path: Assets/Scenes/Prefabs/Food.prefab
   artifactKey: Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Food.prefab using Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c2bb8768ce9001b0619b6b01ae9715') in 0.012096 seconds
-  Import took 0.018406 seconds .
+Start importing Assets/Scenes/Prefabs/Food.prefab using Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Food) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Food) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c88b1830bac3779729687ce7ad5fe6f1') in 0.074073 seconds
+  Import took 0.081472 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 2.395700 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.023300 ms  DeleteObjects: 0.111400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 2.330900 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.963700 ms  DeleteObjects: 0.113200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.456844 seconds.
+  Time since last request: 117.107729 seconds.
+  path: Assets/Scenes/Animations/Collectables/Strawberry.png
+  artifactKey: Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Strawberry.png using Guid(a2c110585eb710b408972fbc3b96136d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe77d3dcae44ecbf1a840709100b1f1') in 0.170758 seconds
+  Import took 0.176130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.693560 seconds.
+  path: Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca530a75837ce5959d1b056c556868') in 0.004000 seconds
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041235 seconds.
+  path: Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca530a75837ce5959d1b056c556868') in 0.003612 seconds
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278413 seconds.
+  path: Assets/Scenes/Animations/Collectables/Food.controller
+  artifactKey: Guid(97ba24d761b5ebc4894fa7c184a03839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Food.controller using Guid(97ba24d761b5ebc4894fa7c184a03839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4059a747b231632bc92b15e4744d5261') in 0.004844 seconds
+  Import took 0.013721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.256400 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.082300 ms MarkObjects: 1.829900 ms  DeleteObjects: 0.122700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.620218 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller
+  artifactKey: Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller using Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0fe489ab73543f59dc09c4b1eeda8c') in 0.020472 seconds
+  Import took 0.025865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329752 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller
+  artifactKey: Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller using Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca95f3b427404b9e18f65d8092b897c3') in 0.004912 seconds
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001574 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller
+  artifactKey: Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller using Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca95f3b427404b9e18f65d8092b897c3') in 0.003843 seconds
+  Import took 0.009406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 2.331100 ms (FindLiveObjects: 0.199700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.940000 ms  DeleteObjects: 0.118000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.570555 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller
+  artifactKey: Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller using Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ba6bdc1715c465b6c7f50ff2c9e32a') in 0.022761 seconds
+  Import took 0.028576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.516617 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim
+  artifactKey: Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim using Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7980a6e6ced2793465528e69c2bd1522') in 0.009637 seconds
+  Import took 0.015076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002393 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim
+  artifactKey: Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Bacteria.anim using Guid(0cab0e4086615474cb0abcc8fb306f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7980a6e6ced2793465528e69c2bd1522') in 0.005137 seconds
+  Import took 0.012334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.839616 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim
+  artifactKey: Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim using Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fb5e30e0f1901706d4974a0eedf58d') in 0.003506 seconds
+  Import took 0.010983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.608355 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shooter.anim
+  artifactKey: Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Shooter.anim using Guid(b2f01fdc9e8c48d40861ce074a455dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab38aae71a09d4bf441aaa589eb12d87') in 0.003329 seconds
+  Import took 0.010197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.850669 seconds.
+  path: Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim
+  artifactKey: Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Collectables/Idle_Strawberry.anim using Guid(cdc522266bee3f14d9c3d30489a2c146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2941450576215d1d07bc083e0943a6f1') in 0.004420 seconds
+  Import took 0.011726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.073481 seconds.
+  path: Assets/Scenes/Prefabs/Food.prefab
+  artifactKey: Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Food.prefab using Guid(44ff3f423fef3d148b8bfc51eb448c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a17efb201ef8e79a7ee0cfd765adb26') in 0.080595 seconds
+  Import took 0.087663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.057654 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter 1.controller
+  artifactKey: Guid(8dac50767d5323444a83e68ab5987fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter 1.controller using Guid(8dac50767d5323444a83e68ab5987fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de040a0ecfdd9d2bbc0a313e4351057') in 0.011959 seconds
+  Import took 0.021421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001163 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter 1.controller
+  artifactKey: Guid(8dac50767d5323444a83e68ab5987fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter 1.controller using Guid(8dac50767d5323444a83e68ab5987fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de040a0ecfdd9d2bbc0a313e4351057') in 0.003586 seconds
+  Import took 0.009979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.517175 seconds.
   path: Assets/Scenes/Prefabs/Follower.prefab
   artifactKey: Guid(c0a9e112b1d62be40b8f94b28d7dd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Follower.prefab using Guid(c0a9e112b1d62be40b8f94b28d7dd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c8f8b39db17740fdea9a7fd3195363') in 0.021125 seconds
-  Import took 0.028104 seconds .
+Start importing Assets/Scenes/Prefabs/Follower.prefab using Guid(c0a9e112b1d62be40b8f94b28d7dd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Follower 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (Follower 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e29edc31f72b51052c4263ac685b5664') in 0.018751 seconds
+  Import took 0.026138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.224007 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower 1.controller
+  artifactKey: Guid(083886fb1965f8c44ac43b548af4e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower 1.controller using Guid(083886fb1965f8c44ac43b548af4e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f7b145a85fa47fce2ab2a89536f0e') in 0.013829 seconds
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower 1.controller
+  artifactKey: Guid(083886fb1965f8c44ac43b548af4e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower 1.controller using Guid(083886fb1965f8c44ac43b548af4e629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f7b145a85fa47fce2ab2a89536f0e') in 0.005921 seconds
+  Import took 0.013949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.673623 seconds.
+  path: Assets/Scenes/Prefabs/Shooter.prefab
+  artifactKey: Guid(2cec4688704ee9241a0f6be49a087d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Shooter.prefab using Guid(2cec4688704ee9241a0f6be49a087d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e2d4b96bae01f9b80a45a53b8e371a') in 0.018822 seconds
+  Import took 0.027335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.320271 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller
+  artifactKey: Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Bacteria.controller using Guid(088f60bbf60c93b4e9543bbc1152c6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7344ecf4a12e4a2eb758857cc3a02e90') in 0.011236 seconds
+  Import took 0.018663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378843 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller
+  artifactKey: Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller using Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ceba1069baa8d469aaa894869712b1e') in 0.003871 seconds
+  Import took 0.010494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001833 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller
+  artifactKey: Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Follower.controller using Guid(510db9f4f47d1894e93a923424d0508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ceba1069baa8d469aaa894869712b1e') in 0.003861 seconds
+  Import took 0.011898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.448792 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim
+  artifactKey: Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Idle_Follower.anim using Guid(4c24eeb79d993cd41b7177418c615cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1f481bd6c0769686da73bfe64b75f4') in 0.003164 seconds
+  Import took 0.010060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.231551 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller
+  artifactKey: Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller using Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bde8925e76e6b8d29f3c9542b0b883') in 0.005404 seconds
+  Import took 0.014578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001694 seconds.
+  path: Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller
+  artifactKey: Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations/Bacteria_Follower_Shooter/Shooter.controller using Guid(b3cfb99c11c40504b9ed354c5fa5dd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bde8925e76e6b8d29f3c9542b0b883') in 0.004001 seconds
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 2.237500 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.824100 ms  DeleteObjects: 0.172700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.476246 seconds.
+  path: Assets/Scenes/Prefabs/Shooter.prefab
+  artifactKey: Guid(2cec4688704ee9241a0f6be49a087d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Shooter.prefab using Guid(2cec4688704ee9241a0f6be49a087d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a18624fe871789fdc90832b2d3ea415') in 0.061804 seconds
+  Import took 0.067793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 2.352100 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.969500 ms  DeleteObjects: 0.116000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
