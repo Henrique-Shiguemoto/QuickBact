@@ -14,20 +14,14 @@ Ideas - Game Theme: Small World
 
 ********************THINGS TO ADD********************
 - different collectables (for bacteria speed or to atract the food)
-- different types of enemies
-- environment related to an animal
-- add many kinds of platforms
 - smooth camera following
-- add skins for the objects
 - add post processing
-- dash mechanic with cooldown
 - minimap
-- better UI
-- pathfinding for follower enemy
+- Songs and sound effects
+- Menu
 *****************************************************
 
 *****************MECHANICS***************************
 - Control bacteria with W,A,S,D (basic controls)
 - no shooting
-- dash (with cooldown)
 *****************************************************

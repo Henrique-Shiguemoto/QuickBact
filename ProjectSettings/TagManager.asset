@@ -9,6 +9,7 @@ TagManager:
   - Hole
   - Shooter
   - ShooterBullet
+  - Orange
   layers:
   - Default
   - TransparentFX

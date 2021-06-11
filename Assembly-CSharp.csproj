@@ -67,11 +67,9 @@
     <Compile Include="Assets\Scenes\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooterBullet.cs" />
-    <Compile Include="Assets\Scenes\Scripts\RotateWall.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\From AssetStore\FreePixelFood\ReadMe.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
