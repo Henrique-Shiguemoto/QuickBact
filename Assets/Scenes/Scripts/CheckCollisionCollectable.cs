@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +10,7 @@ public class CheckCollisionCollectable : MonoBehaviour
     [SerializeField] private float orangeSpeedBoostTimer = 2f;
     [SerializeField] private int MaxFood;
     [SerializeField] private float reloadSceneDelay;
+    [SerializeField] private AudioSource collectSound;
     private GameObject gameManager;
     private bool isBoosting = false;
     private float playerSpeed;
@@ -44,17 +43,35 @@ public class CheckCollisionCollectable : MonoBehaviour
         if (collision.tag == "Collectable")
         {
             Destroy(collision.gameObject);
+            collectSound.Play();
             foodCount++;
             foodCountText.text = "Food: " + foodCount.ToString();
             if (foodCount == MaxFood)
             {
+                GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("winSound");
                 WinText.text = "YOU WON! CONGRATS!";
+                GameObject[] followers = GameObject.FindGameObjectsWithTag("Enemy");
+                GameObject[] shooters = GameObject.FindGameObjectsWithTag("Shooter");
+                GameObject[] shooterBullets = GameObject.FindGameObjectsWithTag("ShooterBullet");
+                foreach (GameObject follower in followers)
+                {
+                    follower.SetActive(false);
+                }
+                foreach (GameObject shooter in shooters)
+                {
+                    shooter.SetActive(false);
+                }
+                foreach (GameObject bullet in shooterBullets)
+                {
+                    bullet.SetActive(false);
+                }
                 gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
             }
         }
         if (collision.tag == "Orange")
         {
             Destroy(collision.gameObject);
+            collectSound.Play();
             isBoosting = true;
             GetComponent<Bacteria2DController>().bactSpeed += orangeSpeedBoost;
         }

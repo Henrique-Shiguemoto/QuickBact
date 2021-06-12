@@ -9,6 +9,8 @@ public class StateManager : MonoBehaviour
     [SerializeField] private float startingTime;
     [SerializeField] private Text timerCountText;
     [SerializeField] private float reloadSceneDelay = 1f;
+    [SerializeField] private AudioSource playerDeath;
+    [SerializeField] private AudioSource winSound;
 
     private void Start()
     {
@@ -39,5 +41,17 @@ public class StateManager : MonoBehaviour
     private void ReloadGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void PlaySound(string soundName)
+    {
+        if (soundName == "playerDeath")
+        {
+            playerDeath.Play();
+        }
+        else if (soundName == "winSound")
+        {
+            winSound.Play();
+        }
     }
 }

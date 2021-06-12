@@ -21,6 +21,7 @@ public class CheckCollisionEnemy : MonoBehaviour
         {
             if (CalculateDistance(enemy, gameObject) <= enemy.transform.localScale.x/2 + gameObject.transform.localScale.x/2)
             {
+                GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
                 gameObject.SetActive(false);
                 textObject.text = "GAME OVER";
                 gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);

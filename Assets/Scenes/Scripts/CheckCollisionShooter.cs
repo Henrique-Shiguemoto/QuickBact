@@ -21,6 +21,7 @@ public class CheckCollisionShooter : MonoBehaviour
         {   
             if (Vector2.Distance(shooter.transform.position, transform.position) <= (shooter.transform.localScale.x/2 + transform.localScale.x/2))
             {
+                GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
                 gameObject.SetActive(false);
                 gameOverText.text = "GAME OVER";
                 gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);

@@ -13,6 +13,7 @@ public class CheckCollisionHole : MonoBehaviour
     {
         if (collision.tag == "Hole")
         {
+            GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
             gameObject.SetActive(false);
             gameOverText.text = "GAME OVER";
             gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);

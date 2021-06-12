@@ -9,6 +9,7 @@ public class ShooterMovement : MonoBehaviour
     [SerializeField] private float shooterSpeed;
     [SerializeField] private GameObject bullet;
     [SerializeField] private float timeBetweenShots;
+    [SerializeField] private AudioSource shotSound;
     private GameObject target;
     private float timePass = 1f;
     
@@ -26,6 +27,7 @@ public class ShooterMovement : MonoBehaviour
             if (timePass <= 0f && target.activeSelf)
             {
                 Instantiate(bullet, transform.position, Quaternion.identity);
+                shotSound.Play();
                 timePass = timeBetweenShots;
             }
             else

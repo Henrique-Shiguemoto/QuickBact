@@ -12,6 +12,7 @@ public class CheckCollisionShooterBullet : MonoBehaviour
     {
         if (collision.tag == "ShooterBullet")
         {
+            GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
             gameObject.SetActive(false);
             gameOverText.text = "GAME OVER";
             gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
