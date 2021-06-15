@@ -5500,7 +5500,7 @@ PrefabInstance:
       objectReference: {fileID: 1792161794}
     - target: {fileID: 3661378819955793748, guid: 06b182e1a3541b6408c42b348fcb4978, type: 3}
       propertyPath: MaxFood
-      value: 1
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3661378819955793748, guid: 06b182e1a3541b6408c42b348fcb4978, type: 3}
       propertyPath: WinText
