@@ -62,13 +62,14 @@
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionCollectable.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\Bacteria2DController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionHole.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlanetSize.cs" />
     <Compile Include="Assets\Scenes\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooterBullet.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
-    <Compile Include="Assets\Scenes\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scenes\Scripts\EndMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
