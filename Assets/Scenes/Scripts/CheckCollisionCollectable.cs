@@ -45,7 +45,7 @@ public class CheckCollisionCollectable : MonoBehaviour
             Destroy(collision.gameObject);
             collectSound.Play();
             foodCount++;
-            foodCountText.text = "Food: " + foodCount.ToString();
+            foodCountText.text = "Food: " + foodCount.ToString() + "/" + MaxFood.ToString();
             if (foodCount == MaxFood)
             {
                 GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("winSound");
