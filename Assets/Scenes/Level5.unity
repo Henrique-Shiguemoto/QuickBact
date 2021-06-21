@@ -6383,6 +6383,7 @@ MonoBehaviour:
   reloadSceneDelay: 1.5
   playerDeath: {fileID: 1480318221}
   winSound: {fileID: 1480318220}
+  timerIsActive: 1
 --- !u!4 &1480318219
 Transform:
   m_ObjectHideFlags: 0

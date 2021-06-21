@@ -11,6 +11,7 @@ public class StateManager : MonoBehaviour
     [SerializeField] private float reloadSceneDelay = 1f;
     [SerializeField] private AudioSource playerDeath;
     [SerializeField] private AudioSource winSound;
+    [SerializeField] private bool timerIsActive;
 
     private void Start()
     {
@@ -19,14 +20,18 @@ public class StateManager : MonoBehaviour
 
     private void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        timerCountText.text = "Timer: " + currentTime.ToString("0");
-        if (currentTime <= 0)
+        if (timerIsActive)
         {
-            currentTime = 0;
-            timerCountText.text = "Time's Up!";
-            Invoke("EndGame", reloadSceneDelay);
+            currentTime -= 1 * Time.deltaTime;
+            timerCountText.text = "Timer: " + currentTime.ToString("0");
+            if (currentTime <= 0)
+            {
+                currentTime = 0;
+                timerCountText.text = "Time's Up!";
+                Invoke("EndGame", reloadSceneDelay);
+            }
         }
+        
     }
 
     private void EndGame()

@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scenes\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooterBullet.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
+    <Compile Include="Assets\TutorialText.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 3661378819955793747}
   - component: {fileID: 922970677}
   - component: {fileID: 2796925282301634700}
-  - component: {fileID: -8908754987664437805}
   - component: {fileID: 2668804580133337659}
+  - component: {fileID: -8908754987664437805}
   - component: {fileID: 1631632155}
   m_Layer: 0
   m_Name: Bacteria
@@ -206,6 +206,21 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   gameOverText: {fileID: 0}
   reloadSceneDelay: 1.5
+--- !u!114 &2668804580133337659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3661378819955793754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b1679a2fcbe2f40a9d1f837e9934ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverText: {fileID: 0}
+  gameManager: {fileID: 0}
+  reloadSceneDelay: 1.5
 --- !u!95 &-8908754987664437805
 Animator:
   serializedVersion: 3
@@ -225,21 +240,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2668804580133337659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3661378819955793754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7b1679a2fcbe2f40a9d1f837e9934ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverText: {fileID: 0}
-  gameManager: {fileID: 0}
-  reloadSceneDelay: 1.5
 --- !u!82 &1631632155
 AudioSource:
   m_ObjectHideFlags: 0
