@@ -11,7 +11,7 @@ public class StateManager : MonoBehaviour
     [SerializeField] private float reloadSceneDelay = 1f;
     [SerializeField] private AudioSource playerDeath;
     [SerializeField] private AudioSource winSound;
-    [SerializeField] private bool timerIsActive;
+    public bool timerIsActive;
 
     private void Start()
     {
