@@ -457,7 +457,7 @@ PrefabInstance:
       objectReference: {fileID: 1363371075}
     - target: {fileID: 3661378819955793748, guid: 06b182e1a3541b6408c42b348fcb4978, type: 3}
       propertyPath: MaxFood
-      value: 1
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3661378819955793748, guid: 06b182e1a3541b6408c42b348fcb4978, type: 3}
       propertyPath: WinText
@@ -617,7 +617,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 75c46ecff4b687447bdd08503aa48c6e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 85067349ec34aff48a382c706d40d93d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

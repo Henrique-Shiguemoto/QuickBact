@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CheckCollisionCollectable : MonoBehaviour
 {
@@ -65,7 +66,7 @@ public class CheckCollisionCollectable : MonoBehaviour
                 {
                     bullet.SetActive(false);
                 }
-                gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
         if (collision.tag == "Orange")
