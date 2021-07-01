@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionEnemy.cs" />
     <Compile Include="Assets\Scenes\Scripts\RotateGrid.cs" />
     <Compile Include="Assets\Scenes\Scripts\EndMenu.cs" />
+    <Compile Include="Assets\Scenes\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionCollectable.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterMovement.cs" />

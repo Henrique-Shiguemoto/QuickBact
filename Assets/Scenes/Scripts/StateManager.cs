@@ -12,11 +12,14 @@ public class StateManager : MonoBehaviour
     [SerializeField] private float reloadSceneDelay = 1f;
     [SerializeField] private AudioSource playerDeath;
     [SerializeField] private AudioSource winSound;
+    [SerializeField] private AudioSource mainSong;
+    [SerializeField] private GameObject pauseMenu;
     public bool timerIsActive;
 
     private void Start()
     {
         currentTime = startingTime;
+
     }
 
     private void Update()
@@ -31,6 +34,14 @@ public class StateManager : MonoBehaviour
                 timerCountText.text = "Time's Up!";
                 Invoke("EndGame", reloadSceneDelay);
             }
+        }
+        if (PauseMenu.GameIsPaused)
+        {
+            mainSong.pitch = 0f;
+        }
+        else
+        {
+            mainSong.pitch = 1f;
         }
     }
 
