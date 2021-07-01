@@ -18,14 +18,18 @@ public class CheckCollisionShooter : MonoBehaviour
     private void Update()
     {
         foreach (GameObject shooter in shooterList)
-        {   
-            if (Vector2.Distance(shooter.transform.position, transform.position) <= (shooter.transform.localScale.x/2 + transform.localScale.x/2))
+        {
+            if (shooter != null)
             {
-                GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
-                gameObject.SetActive(false);
-                gameOverText.text = "GAME OVER";
-                gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
+                if (Vector2.Distance(shooter.transform.position, transform.position) <= (shooter.transform.localScale.x/2 + transform.localScale.x/2))
+                {
+                    GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
+                    gameObject.SetActive(false);
+                    gameOverText.text = "GAME OVER";
+                    gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
+                }
             }
+            
         }
     }
 }

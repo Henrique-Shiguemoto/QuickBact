@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -31,7 +32,6 @@ public class StateManager : MonoBehaviour
                 Invoke("EndGame", reloadSceneDelay);
             }
         }
-        
     }
 
     private void EndGame()
@@ -46,6 +46,12 @@ public class StateManager : MonoBehaviour
     private void ReloadGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public IEnumerator LoadNextScene(int activeSceneIndex, float reloadSceneDelay)
+    {
+        yield return new WaitForSeconds(reloadSceneDelay);
+        SceneManager.LoadScene(activeSceneIndex + 1);
     }
 
     public void PlaySound(string soundName)

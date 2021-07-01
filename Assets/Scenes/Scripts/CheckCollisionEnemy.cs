@@ -19,23 +19,17 @@ public class CheckCollisionEnemy : MonoBehaviour
     {
         foreach (GameObject enemy in enemyList)
         {
-            if (CalculateDistance(enemy, gameObject) <= enemy.transform.localScale.x/2 + gameObject.transform.localScale.x/2)
+            if (enemy != null)
             {
-                GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
-                gameObject.SetActive(false);
-                textObject.text = "GAME OVER";
-                gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
+                if (Vector2.Distance(enemy.transform.position, gameObject.transform.position) <= enemy.transform.localScale.x/2 + gameObject.transform.localScale.x/2)
+                {
+                    GameObject.Find("GameManager").GetComponent<StateManager>().PlaySound("playerDeath");
+                    gameObject.SetActive(false);
+                    textObject.text = "GAME OVER";
+                    gameManager.GetComponent<StateManager>().Invoke("EndGame", reloadSceneDelay);
+                }
             }
+            
         }
-    }
-
-    private float CalculateDistance(GameObject fisrtObj, GameObject secondObj)
-    {
-        Vector3 position1 = fisrtObj.transform.position;
-        Vector3 position2 = secondObj.transform.position;
-
-        float distance = Vector3.Distance(position1, position2);
-
-        return distance;
     }
 }

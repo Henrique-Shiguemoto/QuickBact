@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -56,17 +57,17 @@ public class CheckCollisionCollectable : MonoBehaviour
                 GameObject[] shooterBullets = GameObject.FindGameObjectsWithTag("ShooterBullet");
                 foreach (GameObject follower in followers)
                 {
-                    follower.SetActive(false);
+                    Destroy(follower);
                 }
                 foreach (GameObject shooter in shooters)
                 {
-                    shooter.SetActive(false);
+                    Destroy(shooter);
                 }
                 foreach (GameObject bullet in shooterBullets)
                 {
-                    bullet.SetActive(false);
+                    Destroy(bullet);
                 }
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                StartCoroutine(gameManager.GetComponent<StateManager>().LoadNextScene(SceneManager.GetActiveScene().buildIndex, reloadSceneDelay));
             }
         }
         if (collision.tag == "Orange")
