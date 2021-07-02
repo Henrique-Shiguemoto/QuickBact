@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scenes\Scripts\SetTimerActive.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\TutorialText.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Map.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

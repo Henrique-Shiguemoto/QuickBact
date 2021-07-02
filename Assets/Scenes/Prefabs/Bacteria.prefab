@@ -159,8 +159,8 @@ MonoBehaviour:
   WinText: {fileID: 0}
   orangeSpeedBoost: 2.5
   orangeSpeedBoostTimer: 2
-  MaxFood: 22
-  reloadSceneDelay: 1.5
+  MaxFood: 19
+  reloadSceneDelay: 2
   collectSound: {fileID: 1631632155}
 --- !u!114 &3661378819955793747
 MonoBehaviour:
