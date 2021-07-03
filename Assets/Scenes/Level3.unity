@@ -501,6 +501,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &121287670 stripped
@@ -1417,6 +1421,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &655616302 stripped
@@ -1545,6 +1553,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &691545526 stripped
@@ -1611,6 +1623,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &728997825 stripped
@@ -1677,6 +1693,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &736864808 stripped
@@ -1888,6 +1908,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &825583356 stripped
@@ -2098,7 +2122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Food: 0/19'
+  m_Text: 'Food: 0/10'
 --- !u!222 &939891577
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8606,6 +8630,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &1449441513 stripped
@@ -8672,6 +8700,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &1514099356 stripped
@@ -8738,6 +8770,10 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &1591619423 stripped
@@ -9378,6 +9414,14 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 528994763}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737974160439879749, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
+      propertyPath: distanceThreshold
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cec4688704ee9241a0f6be49a087d76, type: 3}
 --- !u!4 &1950106346 stripped
@@ -10068,7 +10112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5ae7748c3c2bc4e9eed561e41b3696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 100
+  startingTime: 45
   timerCountText: {fileID: 231007897}
   reloadSceneDelay: 1.5
   playerDeath: {fileID: 2144222755}

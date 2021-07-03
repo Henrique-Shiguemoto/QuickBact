@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionShooter.cs" />
     <Compile Include="Assets\Scenes\Scripts\CheckCollisionEnemy.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Map.cs" />
     <Compile Include="Assets\Scenes\Scripts\RotateGrid.cs" />
     <Compile Include="Assets\Scenes\Scripts\EndMenu.cs" />
     <Compile Include="Assets\Scenes\Scripts\PauseMenu.cs" />
@@ -74,7 +75,6 @@
     <Compile Include="Assets\Scenes\Scripts\SetTimerActive.cs" />
     <Compile Include="Assets\Scenes\Scripts\ShooterBulletMovement.cs" />
     <Compile Include="Assets\Scenes\Scripts\TutorialText.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Map.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -4555,7 +4555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5ae7748c3c2bc4e9eed561e41b3696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 300
+  startingTime: 80
   timerCountText: {fileID: 2132948485}
   reloadSceneDelay: 1.5
   playerDeath: {fileID: 1480318221}
