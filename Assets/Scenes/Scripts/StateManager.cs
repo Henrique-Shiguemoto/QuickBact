@@ -13,7 +13,6 @@ public class StateManager : MonoBehaviour
     [SerializeField] private AudioSource playerDeath;
     [SerializeField] private AudioSource winSound;
     [SerializeField] private AudioSource mainSong;
-    [SerializeField] private GameObject pauseMenu;
     public bool timerIsActive;
 
     private void Start()

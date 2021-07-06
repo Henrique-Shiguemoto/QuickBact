@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076293945, y: 161}
+  m_AnchoredPosition: {x: -0.0000076293945, y: 211}
   m_SizeDelta: {x: 686.9131, y: 75.1054}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135463343
@@ -1034,7 +1034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330.03677, y: -209}
+  m_AnchoredPosition: {x: -414, y: -254}
   m_SizeDelta: {x: 163.9264, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571084823
@@ -5095,7 +5095,7 @@ MonoBehaviour:
   playerDeath: {fileID: 1521574792}
   winSound: {fileID: 1521574791}
   mainSong: {fileID: 1521574790}
-  pauseMenu: {fileID: 0}
+  pauseMenu: {fileID: 1713252289}
   timerIsActive: 0
 --- !u!4 &1521574794
 Transform:
@@ -5287,7 +5287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000014305, y: -209}
+  m_AnchoredPosition: {x: 22, y: -254}
   m_SizeDelta: {x: 234.5459, y: 44.1992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673145742
